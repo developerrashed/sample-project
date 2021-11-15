@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-size: 14px;
+  line-height: 22px;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 28px;
+  line-height: 32px;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 500;
+}
+
+h5 {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+h6 {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+}
+
+p {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.header-area {
+  padding: 25px 0;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.header-area.sticky {
+  background-color: #333;
+  padding: 20px 0;
+}
+
+.header-area .header {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 15% 80%;
+      grid-template-columns: 15% 80%;
+  -webkit-column-gap: 5%;
+          column-gap: 5%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-area .header .logo a {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 30px;
+  display: block;
+  color: #fff;
+}
+
+.header-area .header .menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.header-area .header .menu ul li.current a {
+  color: #ff7720;
+}
+
+.header-area .header .menu ul li a {
+  margin-left: 20px;
+  text-transform: capitalize;
+  font-size: 18px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: #fff;
+}
+
+.header-area .header .menu ul li a:hover {
+  color: #ff7720;
+}
+/*# sourceMappingURL=style.css.map */
