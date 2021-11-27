@@ -1,0 +1,33 @@
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(3,30%);
+    grid-gap: 30px;
+    .single-service {
+        text-align: center;
+        box-shadow: 0 15px 40px #f2f2f2;
+        padding: 40px 20px;
+        border-bottom: 3px solid transparent;
+        transition: .3s;
+        h4 {
+            text-transform: capitalize;
+            font-size: 24px;
+            font-weight: 600;
+            padding: 20px 0 10px;
+        }
+        i {
+            font-size: 22px;
+            border: 2px solid #f2f2f2;
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
+            border-radius: 50%;
+          }
+          &:hover {
+            border-bottom: 3px solid #ff7720;
+          }
+         
+      }
+  }
+  
+  
